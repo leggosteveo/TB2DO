@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TB2DO/static/css/main.9c9b464c.chunk.css",
+    "main.js": "/TB2DO/static/js/main.5a5a5c78.chunk.js",
+    "main.js.map": "/TB2DO/static/js/main.5a5a5c78.chunk.js.map",
+    "runtime-main.js": "/TB2DO/static/js/runtime-main.cfddf8b6.js",
+    "runtime-main.js.map": "/TB2DO/static/js/runtime-main.cfddf8b6.js.map",
+    "static/js/2.a0f4c440.chunk.js": "/TB2DO/static/js/2.a0f4c440.chunk.js",
+    "static/js/2.a0f4c440.chunk.js.map": "/TB2DO/static/js/2.a0f4c440.chunk.js.map",
+    "static/js/3.025cdc9f.chunk.js": "/TB2DO/static/js/3.025cdc9f.chunk.js",
+    "static/js/3.025cdc9f.chunk.js.map": "/TB2DO/static/js/3.025cdc9f.chunk.js.map",
+    "index.html": "/TB2DO/index.html",
+    "static/css/main.9c9b464c.chunk.css.map": "/TB2DO/static/css/main.9c9b464c.chunk.css.map",
+    "static/js/2.a0f4c440.chunk.js.LICENSE.txt": "/TB2DO/static/js/2.a0f4c440.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cfddf8b6.js",
+    "static/js/2.a0f4c440.chunk.js",
+    "static/css/main.9c9b464c.chunk.css",
+    "static/js/main.5a5a5c78.chunk.js"
+  ]
+}
