@@ -1,38 +1,162 @@
+:root {
+  --primary: #fa3c01;
+  --second: #68200a;
+  --third: #5d5755;
+  --fourth: #806702;
+  --fifth: #e55e31;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h2 {
+  font-size: 1.5rem !important;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.bottom-link {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.carousel-caption {
+  background-color: rgb(104 33 17 / 80%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.event {
+  background-color: #fffefe;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px #38240b;
+  color: var(--second);
+  margin: 10px auto;
+  min-height: 100px;
+  padding: 2%;
+}
+
+.eventDescription {
+  text-align: left;
+}
+
+.eventHeader {
+  font-weight: bolder;
+}
+
+.featuredEvent {
+  background-color: var(--primary);
+  border-radius: 8px;
+  color: white;
+  height: 300px;
+  margin: 0 10px;
+  padding: 5%;
+}
+
+.fancy-font {
+  font-family: "Reggae One", cursive;
+}
+
+.footer-section {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navbar {
+  box-shadow: 2px 2px 8px #140101;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Reggae One", cursive;
+}
+
+#bottomLinks {
+  padding: 0 !important;
+  margin: 0;
+}
+
+#bottomLinks li {
+  background-color: var(--second);
+  color: white;
+  display: inline-block;
+  list-style: none;
+  padding: 2%;
+  text-decoration: underline;
+}
+
+#eventsDiv {
+  background-color: var(--second);
+  color: white;
+  padding: 5%;
+}
+
+#eventsPage {
+  background-color: white;
+  box-shadow: 2px 2px 8px black, -2px 2px 8px black;
+  margin: 0 auto;
+  margin-bottom: -10px;
+  padding-bottom: 10px;
+  max-width: 1024px;
+}
+
+#featuredEventsContainer {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+#featuredEventsContainer::-webkit-scrollbar {
+  display: none;
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  padding: 2%;
+}
+
+#featuredEventsDiv {
+  padding: 5% 0;
+}
+
+#featuredEventsHeader {
+  color: var(--primary);
+  padding-bottom: 20px;
+}
+
+#filterSection {
+  background-color: var(--second);
+  padding: 2%;
+}
+
+#home {
+  background-color: #f5f3ee;
+  margin: 0 auto;
+  position: relative;
+  top: 56px;
+  width: 100%;
+}
+
+#todaysEventsContainer {
+  background-color: #f1eae8;
+  padding: 2%;
+}
+
+#todaysEventsHeader {
+  color: var(--fourth);
+}
+
+@media screen and (min-width: 660px) {
+  .carousel-item {
+    float: none;
   }
 }
